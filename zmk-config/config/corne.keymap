@@ -16,7 +16,7 @@
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-// |CAPS  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+// | CAPS |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | CTRL |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RET  |
 //                    | ALT | LWR | SPC |   | SPC | RSE  | SHFT |
                         bindings = <
@@ -35,7 +35,7 @@
                         bindings = <
    &kp ESC    &kp LC(LEFT) &kp UP       &kp LC(RIGHT)&kp HOME     &kp END           &kp FSLH  &kp N7   &kp N8 &kp N9    &kp MINUS &kp BSPC
    &trans     &kp LEFT     &kp DOWN     &kp RIGHT    &trans       &trans            &kp STAR  &kp N4   &kp N5 &kp N6    &kp PLUS  &trans
-   &kp LSHFT  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans   &kp N1   &kp N2 &kp N3    &kp EQUAL &kp RET
+   &kp LSHFT  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans    &kp N1   &kp N2 &kp N3    &kp EQUAL &kp RET
                                         &kp LGUI     &trans       &kp SPACE         &kp SPACE &kp DOT  &kp N0
                         >;
                 };
